@@ -7,12 +7,14 @@ import {
   createRoutesFromElements
 } from "react-router-dom";
 import Home from "./Home";
+import GanttTaskReact from "./pages/ganttTaskReact";
 import "./reset.css";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
       <Route path="/" element={<Home />} />
+      <Route path="/pages" element={<GanttTaskReact />} />
     </Route>
   )
 );

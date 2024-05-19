@@ -9,12 +9,14 @@ import {
 import Home from "./Home";
 import GanttTaskReact from "./pages/ganttTaskReact";
 import "./reset.css";
+import FrappeGanttReact from "./pages/frappeGanttReact";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
       <Route path="/" element={<Home />} />
       <Route path="/pages" element={<GanttTaskReact />} />
+      <Route path="/frappeGanttReact" element={<FrappeGanttReact />} />
     </Route>
   )
 );

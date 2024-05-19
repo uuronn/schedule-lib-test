@@ -11,6 +11,7 @@ import GanttTaskReact from "./pages/ganttTaskReact";
 import "./reset.css";
 import FrappeGanttReact from "./pages/frappeGanttReact";
 import ReactInteractiveTimeline from "./pages/reactInteractiveTimeline";
+import ReactCalendarTimeline from "./pages/ReactCalendarTimeline";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -21,6 +22,10 @@ const router = createBrowserRouter(
       <Route
         path="/reactInteractiveTimeline"
         element={<ReactInteractiveTimeline />}
+      />
+      <Route
+        path="/ReactCalendarTimeline"
+        element={<ReactCalendarTimeline />}
       />
     </Route>
   )

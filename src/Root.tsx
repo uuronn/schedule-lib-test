@@ -10,6 +10,7 @@ import Home from "./Home";
 import GanttTaskReact from "./pages/ganttTaskReact";
 import "./reset.css";
 import FrappeGanttReact from "./pages/frappeGanttReact";
+import ReactInteractiveTimeline from "./pages/reactInteractiveTimeline";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -17,6 +18,10 @@ const router = createBrowserRouter(
       <Route path="/" element={<Home />} />
       <Route path="/pages" element={<GanttTaskReact />} />
       <Route path="/frappeGanttReact" element={<FrappeGanttReact />} />
+      <Route
+        path="/reactInteractiveTimeline"
+        element={<ReactInteractiveTimeline />}
+      />
     </Route>
   )
 );
